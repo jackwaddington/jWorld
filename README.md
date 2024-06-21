@@ -5,6 +5,8 @@ This is a world, there are many like it - but this is my world.
 
 The purpose is to build a world where computers are talking to each other - recording, sharing and expressing data.
 
+I take some influence from Apple eWorld, that I used as a child. https://en.wikipedia.org/wiki/EWorld
+
 I must acknoweldge that I am a victim to Raspbery Pis marketing department and I find them very cute and collectable. I will put my collection to work!
 
 --
