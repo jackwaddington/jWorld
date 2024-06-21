@@ -1,0 +1,45 @@
+OpenBSD router notes
+Raspbery Pi 4 1gb
+
+OpenBSD 7.5
+
+miniroot75.img
+
+Install on Raspberry Pi:
+
+watch for the OpenBSD BOOTAA64 "boot>" prompt,
+  and type "set tty fb0".
+
+ls to see files
+
+boot [file] to boot into a file.
+
+
+hostname - fire
+
+
+available interfaces without the usb ethernet device
+bse0
+bwfm0
+vlan0
+
+with the usb ethernet device
+bse0
+bwfm0
+ure0 - man ure
+vlan0
+
+
+
+Password - xxxxxxx
+
+no root access
+no encryption
+Whole disk
+
+
+install sets from http
+
+ftp.lysator.liu.se
+
+
