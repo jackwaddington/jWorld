@@ -43,3 +43,5 @@ install sets from http
 ftp.lysator.liu.se
 
 
+ifconfig -a to see interfaces
+we will use bse0 for external and ure0 for local
