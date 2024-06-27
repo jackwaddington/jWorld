@@ -1,6 +1,10 @@
 OpenBSD router notes
 Raspbery Pi 4 1gb
 
+
+next install - 4GB Swap file, no x, no ssh.
+
+
 OpenBSD 7.5
 
 miniroot75.img
