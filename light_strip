@@ -1,0 +1,10 @@
+Light strip
+
+
+Serve a page on a pi, that a light strip will be reading.
+
+This gives the values for the lighting.
+
+This could be coming from a database.
+
+It would be nice to be able to affect values in the data base by using physical controllers, for example buttons and rotation knobs.
