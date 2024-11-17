@@ -1,0 +1,83 @@
+#OpenBSD router notes
+##Raspbery Pi 4 1gb
+##Ethernet USB dongle - what kind?
+
+
+next install - 4GB Swap file, no x, no ssh.
+
+
+OpenBSD 7.5
+
+miniroot75.img
+
+Install on Raspberry Pi:
+
+watch for the OpenBSD BOOTAA64 "boot>" prompt,
+  and type "set tty fb0".
+
+ls to see files
+
+boot [file] to boot into a file.
+
+
+hostname - fire
+
+
+available interfaces without the usb ethernet device
+bse0
+bwfm0
+vlan0
+
+with the usb ethernet device
+bse0
+bwfm0
+ure0 - man ure
+vlan0
+
+
+
+Password - xxxxxxx
+
+no root access
+no encryption
+Whole disk
+
+
+install sets from http
+
+ftp.lysator.liu.se
+
+##PURPOSE
+Create a router that will:
+- allow a LAN
+- allow connection via WIFI
+- connect to an outside network
+- run a firewall to choose what data moves between networks
+- monitor communications on the network
+- allow access to outside networks via ethernet
+
+##USEFUL COMMANDS
+ifconfig -a to see interfaces
+pfctl -s info - ?
+pfctl -s state - show connections
+pfctl -nf /etc/pf.conf - load conf
+
+##INTERFACES
+bse0 - We use this for LAN
+bwfm0 - use this for WIFI
+ure0 - use this for WAN
+
+##FILES THAT WE WORK WITH
+/etc/dhcpd.conf
+/etc/hostname.bse0
+/etc/hostname.bwfm0
+/etc/hostname.ure0
+/etc/pf.conf
+
+##FIREWALL RULES
+allow comms between WLAN and LAN
+allow comes between LAN and outside
+allow NTS
+allow SSH from 192.168 networks
+
+
