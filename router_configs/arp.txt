@@ -1,0 +1,10 @@
+Host                                 Ethernet Address    Netif Expire    Flags
+192.168.0.1                          2c:fd:a1:5f:6c:28    ure0 19m59s    
+192.168.0.26                         8c:85:90:01:3a:f8    ure0 19m33s    
+192.168.0.101                        6c:70:cb:8d:26:61    ure0 45s       
+192.168.0.215                        f0:a7:31:2a:42:d3    ure0 permanent l
+192.168.1.1                          d8:3a:dd:8e:c1:42    bse0 permanent l
+192.168.1.4                          e4:5f:01:c4:25:46    bse0 17m5s     
+192.168.1.5                          b8:27:eb:53:23:39    bse0 1m1s      
+192.168.1.44                         (incomplete)         bse0 expired   
+192.168.2.1                          d8:3a:dd:8e:c1:43   bwfm0 permanent l

@@ -10,7 +10,8 @@ FILES=("../../etc/sysctl.conf"\
  "../../etc/hostname.bse0"\
  "../../etc/hostname.bwfm0"\
  "../../etc/hostname.ure0"\
- "pf.conf")
+ "pf.conf"\
+ "arp.txt")
 
 # Use SCP to copy files
 for file in "${FILES[@]}"; do
