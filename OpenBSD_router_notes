@@ -3,9 +3,15 @@
 ##Ethernet USB dongle - what kind?
 
 
-next install - 4GB Swap file, no x, no ssh.
+##RESOURCES
+https://www.openbsd.org/faq/pf/example1.html
+https://www.openbsdhandbook.com/howto/simple_router/
 
 
+##NOTES FOR NEXT INSTALL
+next install - 4GB Swap file
+
+##NOTES FROM CURRENT INSTALL
 OpenBSD 7.5
 
 miniroot75.img
@@ -58,9 +64,17 @@ Create a router that will:
 
 ##USEFUL COMMANDS
 ifconfig -a to see interfaces
+pfctl -d - disable pf
+pfctl -e - enable pf
+pfctl -f /etc/pf.conf - load rules
 pfctl -s info - ?
 pfctl -s state - show connections
-pfctl -nf /etc/pf.conf - load conf
+pfctl -nf /etc/pf.conf - check config works
+sh /etc/netstart - run new fonfig for hostname.*
+rcctl enable dhcp - config dhcpd to start at boot
+rcctle set dhcpt flags XXXX - tell it to only run on LAN interface
+rcctl enable unbound - DNS server starts at boot
+rcctl start unbound - start Unbound DNS server
 
 ##INTERFACES
 bse0 - We use this for LAN
@@ -73,6 +87,8 @@ ure0 - use this for WAN
 /etc/hostname.bwfm0
 /etc/hostname.ure0
 /etc/pf.conf
+/etc/sysctl.conf
+/var/unbound/etc/unbound.conf
 
 ##FIREWALL RULES
 allow comms between WLAN and LAN
@@ -81,3 +97,6 @@ allow NTS
 allow SSH from 192.168 networks
 
 
+##script?
+rcctl enable dhcpd
+rcctl set dhcpd flags bwfm0 bse0
