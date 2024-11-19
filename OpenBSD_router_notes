@@ -70,11 +70,14 @@ pfctl -f /etc/pf.conf - load rules
 pfctl -s info - ?
 pfctl -s state - show connections
 pfctl -nf /etc/pf.conf - check config works
+pfctl -ef /etc/pf.conf - turn on and load rules
+pfctl -vf - verbose load rules
 sh /etc/netstart - run new fonfig for hostname.*
 rcctl enable dhcp - config dhcpd to start at boot
 rcctle set dhcpt flags XXXX - tell it to only run on LAN interface
 rcctl enable unbound - DNS server starts at boot
 rcctl start unbound - start Unbound DNS server
+arp -a - display list of ip addresses
 
 ##INTERFACES
 bse0 - We use this for LAN
@@ -100,3 +103,19 @@ allow SSH from 192.168 networks
 ##script?
 rcctl enable dhcpd
 rcctl set dhcpd flags bwfm0 bse0
+
+
+##NEW NETWORK
+arp -a - find out who is connected
+
+192.168.0.1	ure0 ext. router?
+192.168.0.26	ure0 - MBP
+192.168.0.101	ure0 - ??
+192.168.0.215	ure0 perminant - this device?
+192.168.1.1	bse0 perminant - this device?
+192.168.1.4	bse0
+192.168.1.5	bse0
+192.168.1.44	bse0 (expired)
+192.168.2.1	bwfm0 perminant - this device?
+192.168.1.4 - Raspberry Pi something?
+
