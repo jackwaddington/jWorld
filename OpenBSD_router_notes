@@ -64,13 +64,16 @@ Create a router that will:
 
 ##USEFUL COMMANDS
 ifconfig -a to see interfaces
-pfctl -d - disable pf
+
+AA - pfctl -d - disable pf
+AA - pfctl -ef /etc/pf.conf - CONFIRMED - turn on and load rules
+
 pfctl -e - enable pf
 pfctl -f /etc/pf.conf - load rules
 pfctl -s info - ?
 pfctl -s state - show connections
 pfctl -nf /etc/pf.conf - check config works
-pfctl -ef /etc/pf.conf - turn on and load rules
+AA - pfctl -ef /etc/pf.conf - CONFIRMED - turn on and load rules
 pfctl -vf - verbose load rules
 sh /etc/netstart - run new fonfig for hostname.*
 rcctl enable dhcp - config dhcpd to start at boot
@@ -118,4 +121,7 @@ arp -a - find out who is connected
 192.168.1.44	bse0 (expired)
 192.168.2.1	bwfm0 perminant - this device?
 192.168.1.4 - Raspberry Pi something?
+
+
+
 
