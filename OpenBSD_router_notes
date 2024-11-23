@@ -70,10 +70,11 @@ AA - pfctl -ef /etc/pf.conf - CONFIRMED - turn on and load rules
 
 pfctl -e - enable pf
 pfctl -f /etc/pf.conf - load rules
-pfctl -s info - ?
-pfctl -s state - show connections
+pfctl -si - show info
+	systat pf - watch -si type stats
+pfctl -sr - show rules
+pfctl -s state - show states (connections?)
 pfctl -nf /etc/pf.conf - check config works
-AA - pfctl -ef /etc/pf.conf - CONFIRMED - turn on and load rules
 pfctl -vf - verbose load rules
 sh /etc/netstart - run new fonfig for hostname.*
 rcctl enable dhcp - config dhcpd to start at boot
@@ -95,6 +96,8 @@ ure0 - use this for WAN
 /etc/pf.conf
 /etc/sysctl.conf
 /var/unbound/etc/unbound.conf
+
+/etc/services - shows what ports are associated with what services
 
 ##FIREWALL RULES
 allow comms between WLAN and LAN
