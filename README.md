@@ -11,7 +11,7 @@ I must acknoweldge that I am a victim to Raspbery Pis marketing department and I
 
 --
 
-In a world, we need services. Here we have electricity and network.
+In a world, we need services. Here we have electricity and network. Other services we need are administrative - like the postal service, registers of births, marriages and deaths.......
 
 Electricity is provided from mains power with USB power leads.
 
