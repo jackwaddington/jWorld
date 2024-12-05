@@ -1,7 +1,7 @@
 # eWorld
 ## This is a world, there are many like it - but this is my world.
 
---
+![eWorld image](https://upload.wikimedia.org/wikipedia/en/f/f1/EWorld_Main_Screen.png)
 
 The purpose is to create a world where computers are talking to each other - recording, sharing and expressing data. As the community develops, I expect we might have to rebuild infrastructure to meet modern needs.
 
@@ -30,24 +30,26 @@ Find out more about the network configuration [here](https://github.com/jackwadd
 On the network we have:
 
 - [Raspberry Pi 4 2gb](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/) running:
-- - a database
+  - a database
   - a [MQTT server](https://en.wikipedia.org/wiki/MQTT)
   - a [Syslog server](https://en.wikipedia.org/wiki/Syslog)
 - [Raspberry Pi 3 B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) running:
-- - [TV Server](https://www.raspberrypi.com/products/raspberry-pi-tv-hat/).
+  - [TV Server](https://www.raspberrypi.com/products/raspberry-pi-tv-hat/)
   - NTP server
 
 On Wifi we have:
 
-- [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) with camera
-- - running some camera software that can send a picture to ??
+- [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/)
+  - with camera running some camera software that can send a picture to ??
 - [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) with Led strip
-- - that can light up to take a photo
+  - that can light up to take a photo
 - [Raspberry Pi Pico W]() with [LCD graph display](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739)
-- - that can display different graphs of data from the database
+  - that can display different graphs of data from the database
 - [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/) with an [eink display](https://shop.pimoroni.com/products/pico-inky-pack?variant=40044626051155)
-- - that can display different information from the database
+  - that can display different information from the database
 - [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/) with led light strip
-- - that can change colour depending on button input or database
-- [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/) with a collection of buttons and switches, that allow things to be triggered and make records on the database.
-- [Raspery Pi 3A+](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/) with relays
+  - that can change colour depending on button input or database
+- [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+  - with a collection of buttons and switches, that allow things to be triggered and make records on the database.
+- [Raspery Pi 3A+](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/)
+  - with relays
