@@ -21,31 +21,33 @@ Electricity is provided from mains power with USB power leads.
 
 
 ### NETWORK
-The Network is handed by a Raspbery Pi 4 1gb running (OpenBSD)[https://www.openbsd.org/]. It can be connected to an external network and provides wired connectivity for other devices through a USB ethernet internface and WiFi for the wireless devices through on board WiFi.
+The Network is handed by a [Raspbery Pi 4 1gb](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)  running [OpenBSD](https://www.openbsd.org/). It can be connected to an external network and provides wired connectivity for other devices through a USB ethernet internface and WiFi for the wireless devices through on board WiFi.
 
-Find out more about the network configuration (here)[].
+Find out more about the network configuration [here]().
 
 
 ### INFRASTRUCTURE
 On the network we have:
 
-- R Pi 4 2gb running
+- [Raspberry Pi 4 2gb](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/) running:
 - - a database
-  - a (MQTT server)[https://en.wikipedia.org/wiki/MQTT]
-  - a (Syslog server)[https://en.wikipedia.org/wiki/Syslog]
-- R Pi 3 running nothing.
+  - a [MQTT server](https://en.wikipedia.org/wiki/MQTT)
+  - a [Syslog server](https://en.wikipedia.org/wiki/Syslog)
+- [Raspberry Pi 3 B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) running:
+- - [TV Server](https://www.raspberrypi.com/products/raspberry-pi-tv-hat/).
+  - NTP server
 
 On Wifi we have:
 
-- Pi Zero W with camera
+- [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) with camera
 - - running some camera software that can send a picture to ??
-- Pi Zero W with Leds strip
+- [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) with Led strip
 - - that can light up to take a photo
-- Pi Pico W lcd graph display
+- [Raspberry Pi Pico W]() with [LCD graph display](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739)
 - - that can display different graphs of data from the database
-- Pi Pico W eink display
+- [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/) with an [eink display](https://shop.pimoroni.com/products/pico-inky-pack?variant=40044626051155)
 - - that can display different information from the database
-- Pi Pico W with led light strip
+- [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/) with led light strip
 - - that can change colour depending on button input or database
-- Pi Pico W with 
-- Raspery Pi 3A+ with relays
+- [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/) with a collection of buttons and switches, that allow things to be triggered and make records on the database.
+- [Raspery Pi 3A+](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/) with relays
