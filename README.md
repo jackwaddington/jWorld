@@ -1,4 +1,4 @@
-# eWorld
+use# eWorld
 ## This is a world, there are many like it - but this is my world.
 
 ![eWorld image](https://upload.wikimedia.org/wikipedia/en/f/f1/EWorld_Main_Screen.png)
@@ -28,6 +28,10 @@ Find out more about the network configuration [here](https://github.com/jackwadd
 
 ### INFRASTRUCTURE
 On the network we have:
+
+
+diagram with yEd !!!
+
 
 - [Raspberry Pi 4 2gb](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/) running:
   - a database
