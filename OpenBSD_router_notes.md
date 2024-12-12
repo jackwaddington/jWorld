@@ -61,15 +61,15 @@ Create a router that will:
 - [bwfm0](https://man.openbsd.org/bwfm) - use this for WIFI
 - [ure0](https://man.openbsd.org/ure) - use this for WAN
 
-## FILES THAT WE WORK WITH \n
-- [\/etc/dhcpd.conf]()
-- [\/etc/hostname.bse0]() - interface config for LAN
-- [\/etc/hostname.bwfm0]() - interface config for WLAN
-- [\/etc/hostname.ure0]() - interface config for WAN or [Egress](https://en.wikipedia.org/wiki/Egress_filtering)
-- [\/etc/pf.conf]() - packet filtering rules that make the firewall
-- [\/etc/sysctl.conf]()
-- [\/var/unbound/etc/unbound.conf]()
-- [\/etc/services]() - shows what ports are associated with what services
+## FILES THAT WE WORK WITH
+- [\/etc/dhcpd.conf](https://github.com/jackwaddington/jWorld/blob/main/router_configs/dhcpd.conf) - assign IP addresss
+- [\/etc/hostname.bse0](https://github.com/jackwaddington/jWorld/blob/main/router_configs/hostname.bse0) - interface config for LAN
+- [\/etc/hostname.bwfm0](https://github.com/jackwaddington/jWorld/blob/main/router_configs/hostname.bwfm0) - interface config for WLAN
+- [\/etc/hostname.ure0](https://github.com/jackwaddington/jWorld/blob/main/router_configs/hostname.ure0) - interface config for WAN or [Egress](https://en.wikipedia.org/wiki/Egress_filtering)
+- [\/etc/pf.conf](https://github.com/jackwaddington/jWorld/blob/main/router_configs/PF_RULE_SETS/pf02-simple-set-with-alias.conf) - [packet filtering](https://en.wikipedia.org/wiki/PF_(firewall)) rules that make the firewall
+- [\/etc/sysctl.conf](https://github.com/jackwaddington/jWorld/blob/main/router_configs/sysctl.conf) - allow packets of data to be forwarded
+- [\/var/unbound/etc/unbound.conf](https://github.com/jackwaddington/jWorld/blob/main/router_configs/unbound.conf) - [DNS](https://en.wikipedia.org/wiki/Unbound_(DNS_server))
+- [\/etc/services]() - shows what ports are associated with what [services](https://man.openbsd.org/services.5)
 
 ## FIREWALL RULES
 - allow comms between WLAN and LAN
