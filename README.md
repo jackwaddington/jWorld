@@ -1,7 +1,5 @@
-use# eWorld
 ## This is a world, there are many like it - but this is my world.
-
-![eWorld image](https://upload.wikimedia.org/wikipedia/en/f/f1/EWorld_Main_Screen.png)
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f1/EWorld_Main_Screen.png" align="center">
 
 The purpose is to create a world where computers are talking to each other - recording, sharing and expressing data. As the community develops, I expect we might have to rebuild infrastructure to meet modern needs.
 
