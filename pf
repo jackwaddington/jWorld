@@ -1,0 +1,14 @@
+use MAC to fix ip addresses to nodes
+
+This puts nodes into subnets for pf rules.
+
+pico for local
+pico for web
+
+pi for local
+
+pi allowing outside access
+
+dmz
+
+

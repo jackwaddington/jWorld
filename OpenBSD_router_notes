@@ -1,7 +1,8 @@
-#OpenBSD router notes
-##Raspbery Pi 4 1gb
-##Ethernet USB dongle - what kind?
+# OpenBSD router notes
+## Raspbery Pi 4 1gb
+## Ethernet USB dongle - what kind?
 
+![OpenBSD picture](https://www.openbsd.org/images/puffy76.gif)
 
 ##RESOURCES
 https://www.openbsd.org/faq/pf/example1.html
