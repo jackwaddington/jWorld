@@ -1,31 +1,33 @@
-## This is a world, there are many like it - but this is my world.
+## This is a world, there are many like it - but this is my jWorld,
+
 <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/EWorld_Main_Screen.png" align="center">
 
-The purpose is to create a world where computers are talking to each other - recording, sharing and expressing data. As the community develops, I expect we might have to rebuild infrastructure to meet modern needs.
+The purpose is to create a world where computers (CITIjENS) are talking to each other - recording, sharing and expressing data. As the community develops, I expect we might have to rebuild infrastructure to meet modern needs.
 
 I take some influence from Apple [eWorld](https://en.wikipedia.org/wiki/EWorld) that was my first introduction to the internet.
 
-I must acknoweldge that I am a victim to Raspbery Pis marketing department - I find them very cute and collectable. I will put my collection to work!
 
---
+# INFRASTRUCTURE
 
-## BASIC INFRASTRUCTURE
-
-In a world, we need services. Here we have electricity and network. Other services we need are administrative - like the postal service, registers of births, marriages and deaths.......
+In a world, we need services. Here we have electricity and network. Other services we need are administrative - like the postal service, registers of births, marriages and deaths, CCTV - these run on our CITIjENS
 
 
-### ELECTRICITY
-Electricity is provided from mains power with USB power leads.
+## ELECTRICITY
+
+Electricity is provided from mains power with USB power leads. Electricity seems to be a natural resource - we don't understand exactly where it comes from, but it is provided every part of this world.
 
 
-### NETWORK
+## NETWORK
+
+A critical part of jWorld is the network. This allows all nodes to speak to each other, but is carful not to let everyone speak to the outside world. Even more important is that the outside world cannot speak to residents of jWorld, unless they asked to be spoken to. [NAT](https://en.wikipedia.org/wiki/Network_address_translation)
+
 The Network is handed by a [Raspbery Pi 4 1gb](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)  running [OpenBSD](https://www.openbsd.org/). It can be connected to an external network and provides wired connectivity for other devices through a USB ethernet internface and WiFi for the wireless devices through on board WiFi.
 
-Find out more about the network configuration [here](https://github.com/jackwaddington/eWorld/blob/main/OpenBSD_router_notes).
+Find out more about how the network is set up [here](https://github.com/jackwaddington/eWorld/blob/main/OpenBSD_router_notes).
 
 
-### INFRASTRUCTURE
-On the network we have:
+## CITIjENS
+On out network we have:
 
 
 diagram with yEd !!!
