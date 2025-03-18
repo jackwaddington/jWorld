@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 
 RECEIVED_SIGNAL = [[], []]  # [[time of reading], [signal reading]]
 MAX_DURATION = 5
-RECEIVE_PIN = 13
+RECEIVE_PIN = 4 #gpio ref, this is pin 7 on the board
 
 if __name__ == '__main__':
     GPIO.setmode(GPIO.BCM)
