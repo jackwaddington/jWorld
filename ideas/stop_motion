@@ -1,0 +1,11 @@
+Automate!
+
+Use pi3a - has hdmi, usb, wifi, camera connection, gpio.
+
+Automation had - to operate a motor to move something slightly every day, and to take a picture of it.
+
+We can control the time of day that the photo is taken, and each time move some thing with a motor. Time of day would be best one hour before sunrise?
+
+We could turn on a light, use the camera, change the position, and be ready to take the picture the next day.
+
+Then compile the current files into a video, that could output to a TV.
