@@ -1,4 +1,6 @@
-## This is a world, there are many like it - but this is my jWorld,
+## We all have our own world, but no body owns the world.
+
+### Work in progress...
 
 <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/EWorld_Main_Screen.png" align="center">
 

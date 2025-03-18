@@ -1,2 +1,2 @@
-up media autoselect mediaopt hostap mode 11g chan 1 nwid pirie wpakey andSon601234
+up media autoselect mediaopt hostap mode 11g chan 1 nwid [NETWORK_NAME] wpakey [NETWORK_PASSWORD]
 10.50.90.1 255.255.255.0
