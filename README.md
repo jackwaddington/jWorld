@@ -25,7 +25,7 @@ A critical part of jWorld is the network. This allows all nodes to speak to each
 
 The Network is handed by a [Raspbery Pi 4 1gb](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)  running [OpenBSD](https://www.openbsd.org/). It can be connected to an external network and provides wired connectivity for other devices through a USB ethernet internface and WiFi for the wireless devices through on board WiFi.
 
-Find out more about how the network is set up [here](https://github.com/jackwaddington/eWorld/blob/main/OpenBSD_router_notes).
+More notes on this [here](https://github.com/jackwaddington/eWorld/blob/main/OpenBSD_router_notes).
 
 
 ## CITIjENS
@@ -34,7 +34,9 @@ On out network we have:
 
 diagram with yEd !!!
 
-
+At our base station we have:
+- OpenBSD packet filter to control data in and out of our network.
+- NAS
 - [Raspberry Pi 4 2gb](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/) running:
   - a database
   - a [MQTT server](https://en.wikipedia.org/wiki/MQTT)
@@ -42,11 +44,16 @@ diagram with yEd !!!
 - [Raspberry Pi 3 B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) running:
   - [TV Server](https://www.raspberrypi.com/products/raspberry-pi-tv-hat/)
   - NTP server
+- K3S server with three nodes to do processing of our off-site workers.
+  - Checks NAS for files, and processes them and 
 
-On Wifi we have:
+On Wifi and 'out in the field' we have:
 
+- Rasperry Pi 5
+  - Taking pictures from sunrise to sunset and posting automatically to YouTube as a timelapse video.
+  - Here one worker is doing the full show - capture, process, publish.
 - [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/)
-  - with camera running some camera software that can send a picture to ??
+  - with camera taking a picture at intervals and sending it to the NAS
 - [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) with Led strip
   - that can light up to take a photo
 - [Raspberry Pi Pico W]() with [LCD graph display](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739)
