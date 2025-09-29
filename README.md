@@ -54,6 +54,7 @@ On Wifi and 'out in the field' we have:
   - Here one worker is doing the full show - capture, process, publish.
 - [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/)
   - with camera taking a picture at intervals and sending it to the NAS
+  - This is part of a distributed system to perform a similar job to the Pi5 - capture here, store on nas, process in cluster.
 - [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) with Led strip
   - that can light up to take a photo
 - [Raspberry Pi Pico W]() with [LCD graph display](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739)
