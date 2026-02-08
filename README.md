@@ -44,8 +44,10 @@ At our base station we have:
 - [Raspberry Pi 3 B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) running:
   - [TV Server](https://www.raspberrypi.com/products/raspberry-pi-tv-hat/)
   - NTP server
-- K3S server with three nodes to do processing of our off-site workers.
-  - Checks NAS for files, and processes them and 
+- [K3s cluster](https://github.com/jackwaddington/k3s) with three nodes (1 master + 2 workers)
+  - Managed by [ArgoCD](https://github.com/jackwaddington/homelab-gitops) for GitOps deployments
+  - Running [Prometheus + Grafana](https://github.com/jackwaddington/jWorld-observability) for cluster monitoring
+  - Processing jobs for off-site workers
 
 On Wifi and 'out in the field' we have:
 
