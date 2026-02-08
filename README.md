@@ -25,7 +25,7 @@ A critical part of jWorld is the network. This allows all nodes to speak to each
 
 The Network is handed by a [Raspbery Pi 4 1gb](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)  running [OpenBSD](https://www.openbsd.org/). It can be connected to an external network and provides wired connectivity for other devices through a USB ethernet internface and WiFi for the wireless devices through on board WiFi.
 
-More notes on this [here](https://github.com/jackwaddington/eWorld/blob/main/OpenBSD_router_notes).
+More notes on this [here](https://github.com/jackwaddington/OpenBSD).
 
 
 ## CITIjENS
