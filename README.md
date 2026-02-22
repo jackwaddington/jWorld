@@ -1,6 +1,6 @@
 ## We all have our own world, but no body owns the world.
 
-### Work in progress...
+### This project has been superseded by [Edge-NET](https://github.com/jackwaddington/edge-net).
 
 <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/EWorld_Main_Screen.png" align="center">
 
